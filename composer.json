@@ -1,6 +1,6 @@
 {
-    "name": "carlos/php-blockchain",
-    "description": "A simple blockchain infrastructure for PHP",
+    "name": "carlos/php-skeleton",
+    "description": "A simple skeleton infrastructure for PHP",
     "license": "MIT",
     "authors": [
         {
