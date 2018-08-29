@@ -1,4 +1,5 @@
 <?php
+declare(strict_types=1);
 
 namespace Tests;
 
@@ -7,10 +8,9 @@ use PHPUnit\Framework\TestCase;
 
 class SampleClassTest extends TestCase
 {
-    public function testOne()
+    public function testOne(): void
     {
         $class = new SampleClass();
-
         $this->assertEquals(1, $class->one());
     }
 }
